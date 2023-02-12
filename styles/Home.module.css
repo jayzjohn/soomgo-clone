@@ -3,8 +3,31 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
   min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+}
+
+.header_content{
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.title{
+  padding-left: 3rem;
+  font-weight: bold;
+  color: #05cf67;
+  font-size: 26px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
 }
 
 .description {
